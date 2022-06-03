@@ -117,41 +117,4 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="MainMenu_Shape" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\MainMenu_Shape.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="RegisterComplete" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\RegisterComplete.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="EmpleadoIcon" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\EmpleadoIcon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="desaprobado_img" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\desaprobado_img.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="ClientesIcon" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\ClientesIcon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="ProveedorIcon" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\ProveedorIcon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="ClientImage_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\ClientImage_1.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="ComprarIcon" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\ComprarIcon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="salir_img" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\salir_img.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="ProductoIcon" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\ProductoIcon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="ClienteImage_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\ClienteImage_2.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="58483" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\58483.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
 </root>

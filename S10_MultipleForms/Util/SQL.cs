@@ -50,7 +50,41 @@ namespace S10_MultipleForms{
                     "emailProv varchar(36)," +
                     "CONSTRAINT PK_IDPROV PRIMARY KEY (idProv));";
 
+                var tableClient = "IF NOT EXISTS (SELECT * FROM sysobjects " +
+                    "where name='ClientTable' and xtype='U')" +
+                    "CREATE TABLE ClientTable(" +
+                    "firstNameClient varchar(16) not null," +
+                    "lastNameClient varchar(16) not null," +
+                    "DNIClient varchar(12)," +
+                    "phoneCliente varchar(12)," +
+                    "direccionClient varchar(64)," +
+                    "CONSTRAINT PK_FIRSTNAME PRIMARY KEY (firstNameClient));";
+
+
+                var tableEmpleado = "IF NOT EXISTS (SELECT * FROM sysobjects " +
+                    "where name='EmpleadoTable' and xtype='U')" +
+                    "CREATE TABLE EmpleadoTable(" +
+                    "nameEmpleado varchar(16) not null," +
+                    "edadEmpleado int," +
+                    "fnacimientoEmpleado varchar(16)," +
+                    "direccionEmpleado varchar(12)," +
+                    "hijosEmpleado int," +
+                    "elaboralEmpleado varchar(64)," +
+                    "sueldoEmpleado decimal," +
+                    "CONSTRAINT PK_NAMEEMPLEADO PRIMARY KEY (nameEmpleado));";
+
+                var tableProduct = "IF NOT EXISTS (SELECT * FROM sysobjects " +
+                    "where name='ProductTable' and xtype='U')" +
+                    "CREATE TABLE ProductTable(" +
+                    "idProduct varchar(16) not null," +
+                    "nameProduct varchar(32)," +
+                    "precioProduct decimal," +
+                    "CONSTRAINT PK_IDPRODUCT PRIMARY KEY (idProduct));";
+
                 command = new SqlCommand(tableProveedor, connection);
+                command = new SqlCommand(tableClient, connection);
+                command = new SqlCommand(tableEmpleado, connection);
+                command = new SqlCommand(tableProduct, connection);
                 command.ExecuteNonQuery();
 
             }

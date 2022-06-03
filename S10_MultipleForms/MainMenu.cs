@@ -28,5 +28,41 @@ namespace S10_MultipleForms
             Alexis alexis = new Alexis();
             alexis.Show();
         }
+
+        private void ClientPanel_MouseClick(object sender, MouseEventArgs e)
+        {
+            Axel axel = new Axel();
+            axel.Show();
+        }
+
+        private void EmpleadoPanel_MouseClick(object sender, MouseEventArgs e)
+        {
+            Sauul saul = new Sauul();
+            saul.Show();
+        }
+
+        private void buttonCalcularSalario_MouseClick(object sender, MouseEventArgs e)
+        {
+            Camila camila = new Camila();
+            camila.Show();
+        }
+
+        private void ProductPanel_MouseClick(object sender, MouseEventArgs e)
+        {
+            Melissa melissa = new Melissa();
+            melissa.Show();
+        }
+
+        private void buttonCalcularGanancias_MouseClick(object sender, MouseEventArgs e)
+        {
+            Joyce joyce = new Joyce();
+            joyce.Show();
+        }
+
+        private void ComprarPanel_MouseClick(object sender, MouseEventArgs e)
+        {
+            Dicarlo dicarlo = new Dicarlo();
+            dicarlo.Show();
+        }
     }
 }

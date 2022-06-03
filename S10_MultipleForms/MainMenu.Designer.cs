@@ -35,6 +35,8 @@
             this.ImageComprar = new System.Windows.Forms.PictureBox();
             this.ExitImage = new System.Windows.Forms.PictureBox();
             this.ShapeLeft = new System.Windows.Forms.PictureBox();
+            this.buttonCalcularSalario = new System.Windows.Forms.Button();
+            this.buttonCalcularGanancias = new System.Windows.Forms.Button();
             this.ProvPanel.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.ImageProve)).BeginInit();
             this.ProductPanel.SuspendLayout();
@@ -85,10 +87,11 @@
             this.ProductPanel.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
             this.ProductPanel.Controls.Add(this.label_producto);
             this.ProductPanel.Controls.Add(this.ImageProducto);
-            this.ProductPanel.Location = new System.Drawing.Point(561, 301);
+            this.ProductPanel.Location = new System.Drawing.Point(475, 290);
             this.ProductPanel.Name = "ProductPanel";
             this.ProductPanel.Size = new System.Drawing.Size(193, 61);
             this.ProductPanel.TabIndex = 4;
+            this.ProductPanel.MouseClick += new System.Windows.Forms.MouseEventHandler(this.ProductPanel_MouseClick);
             // 
             // label_producto
             // 
@@ -115,10 +118,11 @@
             this.EmpleadoPanel.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(128)))));
             this.EmpleadoPanel.Controls.Add(this.label_empleados);
             this.EmpleadoPanel.Controls.Add(this.ImageEmpleado);
-            this.EmpleadoPanel.Location = new System.Drawing.Point(561, 192);
+            this.EmpleadoPanel.Location = new System.Drawing.Point(475, 201);
             this.EmpleadoPanel.Name = "EmpleadoPanel";
             this.EmpleadoPanel.Size = new System.Drawing.Size(193, 61);
             this.EmpleadoPanel.TabIndex = 5;
+            this.EmpleadoPanel.MouseClick += new System.Windows.Forms.MouseEventHandler(this.EmpleadoPanel_MouseClick);
             // 
             // label_empleados
             // 
@@ -149,6 +153,7 @@
             this.ClientPanel.Name = "ClientPanel";
             this.ClientPanel.Size = new System.Drawing.Size(193, 61);
             this.ClientPanel.TabIndex = 6;
+            this.ClientPanel.MouseClick += new System.Windows.Forms.MouseEventHandler(this.ClientPanel_MouseClick);
             // 
             // label_clientes
             // 
@@ -179,6 +184,7 @@
             this.ComprarPanel.Name = "ComprarPanel";
             this.ComprarPanel.Size = new System.Drawing.Size(193, 61);
             this.ComprarPanel.TabIndex = 5;
+            this.ComprarPanel.MouseClick += new System.Windows.Forms.MouseEventHandler(this.ComprarPanel_MouseClick);
             // 
             // label_comprar
             // 
@@ -221,12 +227,42 @@
             this.ShapeLeft.TabIndex = 0;
             this.ShapeLeft.TabStop = false;
             // 
+            // buttonCalcularSalario
+            // 
+            this.buttonCalcularSalario.FlatAppearance.BorderColor = System.Drawing.Color.Black;
+            this.buttonCalcularSalario.FlatAppearance.BorderSize = 10;
+            this.buttonCalcularSalario.FlatStyle = System.Windows.Forms.FlatStyle.System;
+            this.buttonCalcularSalario.Font = new System.Drawing.Font("Comic Sans MS", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.buttonCalcularSalario.Location = new System.Drawing.Point(674, 218);
+            this.buttonCalcularSalario.Name = "buttonCalcularSalario";
+            this.buttonCalcularSalario.Size = new System.Drawing.Size(169, 29);
+            this.buttonCalcularSalario.TabIndex = 7;
+            this.buttonCalcularSalario.Text = "Calcular Salario";
+            this.buttonCalcularSalario.UseVisualStyleBackColor = true;
+            this.buttonCalcularSalario.MouseClick += new System.Windows.Forms.MouseEventHandler(this.buttonCalcularSalario_MouseClick);
+            // 
+            // buttonCalcularGanancias
+            // 
+            this.buttonCalcularGanancias.FlatAppearance.BorderColor = System.Drawing.Color.Black;
+            this.buttonCalcularGanancias.FlatAppearance.BorderSize = 10;
+            this.buttonCalcularGanancias.FlatStyle = System.Windows.Forms.FlatStyle.System;
+            this.buttonCalcularGanancias.Font = new System.Drawing.Font("Comic Sans MS", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.buttonCalcularGanancias.Location = new System.Drawing.Point(674, 307);
+            this.buttonCalcularGanancias.Name = "buttonCalcularGanancias";
+            this.buttonCalcularGanancias.Size = new System.Drawing.Size(169, 29);
+            this.buttonCalcularGanancias.TabIndex = 8;
+            this.buttonCalcularGanancias.Text = "Calcular Ganancias";
+            this.buttonCalcularGanancias.UseVisualStyleBackColor = true;
+            this.buttonCalcularGanancias.MouseClick += new System.Windows.Forms.MouseEventHandler(this.buttonCalcularGanancias_MouseClick);
+            // 
             // MainMenu
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(864, 561);
+            this.Controls.Add(this.buttonCalcularGanancias);
+            this.Controls.Add(this.buttonCalcularSalario);
             this.Controls.Add(this.ComprarPanel);
             this.Controls.Add(this.ClientPanel);
             this.Controls.Add(this.EmpleadoPanel);
@@ -280,6 +316,8 @@
         private System.Windows.Forms.Panel ComprarPanel;
         private System.Windows.Forms.Label label_comprar;
         private System.Windows.Forms.PictureBox ImageComprar;
+        private System.Windows.Forms.Button buttonCalcularSalario;
+        private System.Windows.Forms.Button buttonCalcularGanancias;
     }
 }
 

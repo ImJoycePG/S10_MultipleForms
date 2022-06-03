@@ -82,17 +82,77 @@
     <Compile Include="MainMenu.Designer.cs">
       <DependentUpon>MainMenu.cs</DependentUpon>
     </Compile>
+    <Compile Include="menus\Axel.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="menus\Axel.designer.cs">
+      <DependentUpon>Axel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="menus\Camila.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="menus\Camila.designer.cs">
+      <DependentUpon>Camila.cs</DependentUpon>
+    </Compile>
+    <Compile Include="menus\Dicarlo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="menus\Dicarlo.designer.cs">
+      <DependentUpon>Dicarlo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="menus\Joyce.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="menus\Joyce.designer.cs">
+      <DependentUpon>Joyce.cs</DependentUpon>
+    </Compile>
+    <Compile Include="menus\Melissa.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="menus\Melissa.Designer.cs">
+      <DependentUpon>Melissa.cs</DependentUpon>
+    </Compile>
+    <Compile Include="menus\Sauul.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="menus\Sauul.designer.cs">
+      <DependentUpon>Sauul.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="S10_MultipleForms.cs" />
+    <Compile Include="Util\Entity\Cliente.cs" />
+    <Compile Include="Util\Entity\Product.cs" />
     <Compile Include="Util\Entity\Proveedor.cs" />
+    <Compile Include="Util\Entity\Empleado.cs" />
     <Compile Include="Util\SQL.cs" />
+    <Compile Include="Util\Tables\ClientTable.cs" />
+    <Compile Include="Util\Tables\EmpleadoTable.cs" />
+    <Compile Include="Util\Tables\ProductTable.cs" />
     <Compile Include="Util\Tables\ProvTable.cs" />
     <EmbeddedResource Include="menus\Alexis.resx">
       <DependentUpon>Alexis.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="MainMenu.resx">
       <DependentUpon>MainMenu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="menus\Axel.resx">
+      <DependentUpon>Axel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="menus\Camila.resx">
+      <DependentUpon>Camila.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="menus\Dicarlo.resx">
+      <DependentUpon>Dicarlo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="menus\Joyce.resx">
+      <DependentUpon>Joyce.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="menus\Melissa.resx">
+      <DependentUpon>Melissa.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="menus\Sauul.resx">
+      <DependentUpon>Sauul.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -143,7 +203,9 @@
       <Private>True</Private>
     </Reference>
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <None Include="Resources\ClientImage_1.jpeg" />
+  </ItemGroup>
   <ItemGroup>
     <None Include="Resources\MainMenu_Shape.png" />
   </ItemGroup>
@@ -164,6 +226,18 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\ComprarIcon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ClienteImage_2.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\desaprobado_img.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\RegisterComplete.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\58483.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <PropertyGroup>

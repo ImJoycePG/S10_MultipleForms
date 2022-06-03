@@ -63,6 +63,26 @@ namespace S10_MultipleForms.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap _58483 {
+            get {
+                object obj = ResourceManager.GetObject("58483", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap ClienteImage_2 {
+            get {
+                object obj = ResourceManager.GetObject("ClienteImage_2", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap ClientesIcon {
             get {
                 object obj = ResourceManager.GetObject("ClientesIcon", resourceCulture);
@@ -73,9 +93,29 @@ namespace S10_MultipleForms.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap ClientImage_1 {
+            get {
+                object obj = ResourceManager.GetObject("ClientImage_1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap ComprarIcon {
             get {
                 object obj = ResourceManager.GetObject("ComprarIcon", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap desaprobado_img {
+            get {
+                object obj = ResourceManager.GetObject("desaprobado_img", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -116,6 +156,16 @@ namespace S10_MultipleForms.Properties {
         internal static System.Drawing.Bitmap ProveedorIcon {
             get {
                 object obj = ResourceManager.GetObject("ProveedorIcon", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap RegisterComplete {
+            get {
+                object obj = ResourceManager.GetObject("RegisterComplete", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
